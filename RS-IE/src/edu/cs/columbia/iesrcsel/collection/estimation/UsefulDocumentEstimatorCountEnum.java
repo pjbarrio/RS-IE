@@ -1,0 +1,17 @@
+package edu.cs.columbia.iesrcsel.collection.estimation;
+
+import edu.cs.columbia.iesrcsel.collection.estimation.impl.poolfree.UsefulDocumentCountEstimatorPoolFreeUnweighted;
+
+public enum UsefulDocumentEstimatorCountEnum {
+
+	UsefulDocumentCountEstimatorPoolFreeUnweighted,
+	UsefulDocumentCountEstimatorPoolFreeWeighted,
+	UsefulDocumentCountEstimatorPoolBasedHeuristicAvgTermFactors, 
+	UsefulDocumentCountEstimatorPoolBasedHeuristicTermSetFactor, 
+	UsefulDocumentCountEstimatorPoolBasedBY,
+	UsefulDocumentCountBiasedEstimator, 
+	UsefulDocumentCountStratifiedEstimatorUsefulSize, 
+	ScoreBasedUsefulDocumentCountEstimator;
+	
+	
+}
