@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>org.apache.nutch</groupId>
 			<artifactId>nutch</artifactId>
-			<version>1.7</version>
+			<version>1.18</version>
 		</dependency>
 
 		<dependency>
